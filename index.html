@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="logo">
+                <img src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png" alt="Pokedex Logo">
+            </div>
+            <nav class="main-nav">
+                <a href="#" class="nav-link active">Home</a>
+                <a href="#" class="nav-link">Pokédex</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="search-section">
+            <div class="search-bar">
+                <select id="type-filter" aria-label="Filtrar por tipo">
+                    <option value="">Todos os Tipos</option>
+                </select>
+                <input type="text" id="search-input" placeholder="Faça uma busca pelo nome do pokémon">
+                <button id="search-btn" aria-label="Buscar">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+            </div>
+        </section>
+
+        <section class="pokemon-grid" id="pokemon-grid">
+            <div class="loading">Carregando Pokémon...</div>
+        </section>
+
+        <section class="pagination" id="pagination"></section>
+    </main>
+
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
