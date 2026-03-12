@@ -1,6 +1,6 @@
 # Pokedex Vanilla JS
 
-Esta é uma aplicação Pokedex performática construída com **Vanilla JavaScript** (sem frameworks), seguindo a arquitetura MVC (Model-View-Controller) simplificada e padrões modernos de desenvolvimento web.
+Esta é uma aplicação Pokedex construída com **Vanilla JavaScript** (sem frameworks), seguindo a arquitetura MVC (Model-View-Controller) simplificada e padrões modernos de desenvolvimento web.
 
 ## 🚀 Funcionalidades
 
@@ -19,7 +19,7 @@ Esta é uma aplicação Pokedex performática construída com **Vanilla JavaScri
     *   Selecione "Open with Live Server".
 
 2.  **Opção 2 (Simples):**
-    *   Basta abrir o arquivo `index.html` no seu navegador (algumas funcionalidades podem ser limitadas dependendo das configurações de segurança do navegador para arquivos locais devido ao uso de ES Modules).
+    *   Basta abrir o arquivo `index.html` no seu navegador.
 
 ## 📂 Estrutura do Projeto
 
